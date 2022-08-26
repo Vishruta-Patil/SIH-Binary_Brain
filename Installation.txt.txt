@@ -1,10 +1,12 @@
-For FrontEnd -
-
 git clone https://github.com/Vishruta-Patil/SIH-Binary_Brain.git
+
+For FrontEnd -
+cd DupliTool
 $ npm install
 $ npm install firebase
 $ npm start 
 
 
 For Backend -
+cd api
 python app.py
