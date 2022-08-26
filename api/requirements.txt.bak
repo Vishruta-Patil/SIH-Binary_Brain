@@ -1,0 +1,7 @@
+flask
+gunicorn
+flask_cors
+opencv-python-headless
+opencv-contrib-python
+opencv-python
+numpy

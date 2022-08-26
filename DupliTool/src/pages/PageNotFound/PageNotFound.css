@@ -1,0 +1,24 @@
+.not-found-img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover; 
+    margin-top: 2rem;
+  }
+
+.lg-font {
+    font-size: 3.5rem;
+}
+
+.md-font {
+    font-size: 1.8rem;
+}
+
+/* .btn-container {
+    display: flex;
+    gap: 3rem
+} */
+
+.not-found-btn {
+    padding: 1rem 6rem;
+    margin: 3rem
+}

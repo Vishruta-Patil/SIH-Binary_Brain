@@ -1,0 +1,84 @@
+.collape-navbar-container {
+    display: none;
+  }
+  
+  .overlay-container {
+    display: none;
+  }
+  
+  @media screen and (max-width: 860px) {
+    .collape-navbar-container {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: white;
+      width: 80%;
+      padding: 3rem;
+      z-index: 3;
+      height: 100%;
+    }
+  
+    .header-navbar {
+      font-size: 2.5rem;
+      color: var(--primary-color);
+    }
+  
+    .highlight-letter-header {
+      font-size: 4rem;
+    }
+  
+    .overlay-container {
+      display: block;
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 2;
+    }
+  
+    .navbar-item-container {
+      font-weight: 700;
+    }
+  
+    .nav-close-btn {
+      background-color: transparent;
+      cursor: pointer;
+    }
+  
+    .nav-close-btn span {
+      font-weight: bolder;
+      font-size: 3rem;
+    }
+  
+    .navbar-unit {
+      font-size: 2.5rem;
+      margin-bottom: 3.5rem;
+    }
+  
+    .navbar-unit:hover {
+      color: var(--primary-color);
+    }
+  
+    .nav-icon {
+      font-size: 3.5rem;
+    }
+  
+    .hide-nav {
+        display: none
+    }
+    .display-nav {
+        display: block;
+    }
+    .icon-container {
+      display: none;
+    }
+  }
+  
+  .white-container {
+    color: var(--white-color)
+  }

@@ -1,0 +1,127 @@
+.piracy-form-container {
+  display: flex;
+  width: 100%;
+  padding: 0 2rem;
+}
+
+.banner-container {
+  width: 50%;
+}
+
+.form-img {
+  width: 100%;
+  height: 90vh;
+  object-fit: contain;
+  /* border-radius: 40%; */
+  
+}
+
+.watermark-img {
+  width: 100%;
+  height: 70vh;
+  margin-top: 3rem;
+  object-fit: contain;
+}
+
+.form-content-container {
+  flex-direction: column;
+  width: 50%;
+  margin: 10rem;
+  text-align: left;
+}
+
+.form-unit-box {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 1rem
+}
+
+select {
+  margin-bottom: 2rem;
+}
+
+.form-label {
+  font-size: 3rem;
+  margin-right: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.right-arrow-icon {
+    margin-right: 1rem;
+}
+
+.form-btn {
+    text-align: right;
+    margin-top: 2rem;
+}
+
+.file-upload {
+  margin: 2.5rem 0 5px;
+}
+
+.label-img {
+  font-size: 1.8rem;
+  margin-right: 1rem;
+}
+
+.feat-list {
+  text-decoration: disc;
+}
+
+.desc-box {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0
+}
+
+/* .flex {
+  display: flex;
+  gap:5px
+} */
+
+.watermark-label {
+  margin-top: 2rem;
+}
+
+.desc-header {
+  margin-top: 1rem;
+}
+
+.feat-unit {
+  font-size: 2.3rem;
+}
+
+.feat-unit:first-child {
+  margin-top: 9px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .banner-container {
+    display: none;
+  }
+
+  .piracy-form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .form-content-container {
+    width: 100%;
+    margin: 10rem 3rem;
+    font-size: 3rem;
+
+  }
+}
+
+@media only screen and (max-width: 400px) {
+    .form-label {
+        font-size: 3rem;
+    }
+    .font-sm{
+        font-size: 2rem;
+    }
+}
+
