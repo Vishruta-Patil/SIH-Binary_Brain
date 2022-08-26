@@ -1,0 +1,10 @@
+For FrontEnd -
+
+git clone https://github.com/Vishruta-Patil/SIH-Binary_Brain.git
+$ npm install
+$ npm install firebase
+$ npm start 
+
+
+For Backend -
+python app.py
